@@ -12,7 +12,7 @@ public class Conversions {
 
 	public static void main(String[] args) {
 		
-		boolean loop=true;
+		boolean loop=true; // this is intialised to iterate the loop
 		
 		while(loop=true)
 		{
@@ -28,6 +28,8 @@ public class Conversions {
 		switch(expression) {
 		
 		case 1:
+			// Kms to Mi
+				
 			System.out.println("Enter your Kms to convert it into Mi \n");
 			int Kms_value=sc.nextInt();
 			double final_result=Kms_value*0.62;
@@ -36,7 +38,8 @@ public class Conversions {
 			break;
 		
 		case 2:
-			
+			// Mi to Kms
+				
 			System.out.println("Enter your Mi to convert it into Kms \n");
 			int Mi_value=sc.nextInt();
 			double final_result1=Mi_value*1.61;
@@ -47,7 +50,8 @@ public class Conversions {
 			
 			
 		case 3:
-			
+			// Cm to In
+				
 			System.out.println("Enter your Cm to convert it into In \n");
 			int Cm_value=sc.nextInt();
 			double final_=Cm_value*0.39;
@@ -58,7 +62,8 @@ public class Conversions {
 			
 			
 		case 4:
-			
+			// In to Cm
+				
 			System.out.println("Enter your In to convert it into Cms \n");
 			int In_value=sc.nextInt();
 			double final_1=In_value*2.54;
@@ -69,7 +74,8 @@ public class Conversions {
 			
 			
 		case 5:
-			
+			// Kgs to lbs
+				
 			System.out.println("Enter your Kgs to convert it into lbs\n");
 			int Kgs_value=sc.nextInt();
 			double final_2=Kgs_value*2.2;
@@ -77,7 +83,10 @@ public class Conversions {
 			break;
 			
 		case 6:
-			System.out.println("Enter your Lbs to convert it into Kms\n");
+			
+			// lbs to Kgs
+				
+			System.out.println("Enter your Lbs to convert it into Kgs\n");
 			int Lbs_value=sc.nextInt();
 			double final_Lbs=Lbs_value*2.2;
 			System.out.println(Lbs_value + " Kg = " + final_Lbs + " Lb");
@@ -93,10 +102,13 @@ public class Conversions {
 			
 			default:
 				// This default is used when the user enters other than the given option
+				
 				System.out.println("Entered Option is not from the given list, please try again.........\n");
 				break;
 		
 		}
+		
+		// Closing the Scanner Class
 		sc.close();
 		}
 		

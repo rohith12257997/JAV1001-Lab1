@@ -14,7 +14,7 @@ public class Conversions {
 		
 		boolean loop=true;
 		
-		while(loop!=false) // change this
+		while(loop!=false) // this is to iterate the loop for asking the inputs again....
 		{
 		System.out.println("\nEnter your expression\n"); //Asking the input from the user
 		
@@ -87,7 +87,7 @@ public class Conversions {
 			
 			// Using this case to iterate the while loop
 			
-			System.out.println("Your Application is Closed...Thank You.... :) \n"); // change this spelling.....
+			System.out.println("Your Application is Closed...Thank You.... :) \n"); 
 			loop=false;
 		
 			

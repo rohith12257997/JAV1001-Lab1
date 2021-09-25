@@ -14,7 +14,7 @@ public class Conversions {
 		
 		boolean loop=true;
 		
-		while(loop!=false) // change this
+		while(loop!=false) // this is to iterate the loop for the user to ask again for the input...
 		{
 		System.out.println("\nEnter your expression\n"); //Asking the input from the user
 		
@@ -90,9 +90,7 @@ public class Conversions {
 			System.out.println("Your Application is Closed...Thank You.... :) \n"); // change this spelling.....
 			loop=false;
 		
-			/*
-			 * //Closing the Scanner class sc.close();
-			 */
+			 sc.close(); //Closing the Scanner class
 			break;
 			
 			default:
